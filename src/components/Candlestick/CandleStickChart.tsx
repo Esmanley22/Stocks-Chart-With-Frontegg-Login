@@ -18,7 +18,8 @@ export default class FinancialChartTrendlines extends React.Component<any, any> 
 
     public render(): JSX.Element {
         return (
-        <div className="container sample bg-light p-3 bg-light">
+        
+        <div className="container sample bg-light p-3 bg-light" >
             <div className="options horizontal">
                 <label className="options-label">Trendlines:</label>
                 <select value={this.state.trendLineType}
@@ -39,7 +40,7 @@ export default class FinancialChartTrendlines extends React.Component<any, any> 
                 </select>
             </div>
 
-            <div className="container" style={{height: "550px", width: "100%" }}>
+            <div className="container" style={{height: "550px", width: "100%"}}>
                 <IgrFinancialChart
                     width="100%"
                     height="100%"
@@ -49,12 +50,12 @@ export default class FinancialChartTrendlines extends React.Component<any, any> 
                     trendLineThickness={2}
                     trendLinePeriod={10}
                     trendLineBrushes="rgba(0, 101, 209, 1)"
-                    chartTitle="Microsoft Trend"
+                    chartTitle="Microsoft Stock"
                     subtitle="Between 2013 and 2017"
                     dataSource={this.state.data}
-                    zoomSliderType="None"
+                    zoomSliderType="Candle"
                     isHorizontalZoomEnabled={true}
-                    isVerticalZoomEnabled={false} />
+                    isVerticalZoomEnabled={true} />
             </div>
         </div>
         );

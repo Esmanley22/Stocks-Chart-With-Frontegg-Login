@@ -19,6 +19,15 @@ ul{
 
 }
 
+div.whaaat
+{
+box-sizing: border-box;
+background: black;
+background-size: contain;
+background-repeat: no-repeat;
+background-origin: content-box;
+}
+
 $theme-colors: (
   "primary": $isabelline,
   "secondary": $darkLiver,

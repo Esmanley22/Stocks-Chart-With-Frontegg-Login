@@ -19,14 +19,10 @@ function ToolsAndTips() {
                 <Accordion.Item eventKey="1">
                     <Accordion.Header><u>How to Change Chart Types</u></Accordion.Header>
                     <Accordion.Body className='bg-light'>
-                    Click on the box with the down arrow on the top right and you will be able to cloose between the following, in order:
-                    <ul>
-                        <li>Auto</li>
-                        <li>Bar</li>
-                        <li>Line</li>
-                        <li>Candle</li>
-                        <li>Column</li>
-                    </ul>
+                    Click on the box with the down arrow on the top right of the chart and you will be able to choose between different chart display types.
+                    </Accordion.Body>
+                    <Accordion.Body className='bg-light border-top'>
+                    Click on the box next to "Trendlines" on the top left of the chart and you will be able to choose between different types of trendlinesfor the chart.
                     </Accordion.Body>
                 </Accordion.Item>
                 <Accordion.Item eventKey="2" >

@@ -77,7 +77,7 @@ export const Header = () => {
             <>
             <NavDropdown.Item href='/#' className='text-black' disabled><div className='bg-light'> User: <u>{user.user?.email}</u> </div></NavDropdown.Item>
             <NavDropdown.Divider />
-            <NavDropdown.Item href='/#' className='text-black bg-light' onClick={handleClick}><div> Admin Portal </div></NavDropdown.Item>
+            <NavDropdown.Item href='/#' className='text-black bg-light' onClick={handleClick}><div> Account Portal </div></NavDropdown.Item>
             <NavDropdown.Item href="/#" className='text-black bg-light' onClick={ () => { logout()}}><div> Sign out </div></NavDropdown.Item>
             </>
           }

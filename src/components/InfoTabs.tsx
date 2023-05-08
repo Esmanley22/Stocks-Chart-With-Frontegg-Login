@@ -70,7 +70,7 @@ export default function InfoTabs() {
       <TabPanel value={value} index={0} className='text-center bg-primary border-bottom border-black border-2'>
       <h5><a className='text-decoration-none' href='https://www.ig.com/us/trading-strategies/16-candlestick-patterns-every-trader-should-know-180615'>
                     16 Candlestick Patterns Every Trader Should Know | IG US</a></h5>
-                
+                <hr />
                 <iframe src='//players.brightcove.net/2830693144001/8d914a8e-0772-4b65-b040-afb00fc98328_default/index.html?videoId=6167505049001'></iframe>
             
       </TabPanel>
@@ -78,28 +78,28 @@ export default function InfoTabs() {
       <TabPanel value={value} index={1} className='text-center bg-primary border-bottom border-black border-2'>
         <h5><a className='text-decoration-none' href='https://www.youtube.com/embed/1rwVV_8uUxc'>
                 Understanding Candlestick Charts for Beginners</a></h5>
-                
+                <hr />   
         <iframe src="https://www.youtube.com/embed/1rwVV_8uUxc"></iframe>
       </TabPanel>
 
       <TabPanel value={value} index={2} className='text-center bg-primary border-bottom border-black border-2'>
         <h5><a className='text-decoration-none' href='https://centerpointsecurities.com/bullish-candlestick-patterns/'>
                         Bullish Candlestick Patterns</a></h5>
-                    
+                <hr />
         <iframe  src="https://www.youtube.com/embed/zyqo7ylkJpM"></iframe>
       </TabPanel>
 
       <TabPanel value={value} index={3} className='text-center bg-primary border-bottom border-black border-2'>
         <h5><a className='text-decoration-none' href='https://www.youtube.com/watch?v=v21T94-jXeY'>
                 The ULTIMATE Beginner's Guide to CANDLESTICK PATTERNS</a></h5>
-                    
+                <hr />   
         <iframe src="https://www.youtube.com/embed/v21T94-jXeY"></iframe>
       </TabPanel>
 
       <TabPanel value={value} index={4} className='text-center bg-primary border-bottom border-black border-2'>
         <h5><a className='text-decoration-none' href='Bearish Candlestick Patterns'>
                 Bearish Candlestick Patterns</a></h5>
-                    
+                <hr /> 
         <iframe src="https://www.forextime.com/education/bearish-candlestick-patterns"></iframe>
       </TabPanel>
     </Box>

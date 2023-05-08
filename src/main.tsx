@@ -3,7 +3,6 @@ import * as React from 'react';
 import ReactDOM from 'react-dom/client'
 import App from './App';
 import { FronteggProvider } from '@frontegg/react';
-import { HashRouter, BrowserRouter, Routes, Route } from 'react-router-dom'
 
 
 const contextOptions = {
@@ -13,9 +12,8 @@ const contextOptions = {
 
 
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
-  <HashRouter>
+  
   <FronteggProvider contextOptions={contextOptions} hostedLoginBox={true}>
     <App />
   </FronteggProvider>
-  </HashRouter>
 );

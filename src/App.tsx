@@ -1,6 +1,4 @@
 import { HashRouter, BrowserRouter, Routes, Route } from 'react-router-dom'
-import { Header } from './components/Header';
-import { Footer } from './components/Footer';
 import routes from './config/routes'
 import Home from './Pages/Home'
 import CandlesChart from './Pages/CandlesChart'
@@ -9,19 +7,21 @@ import Learn from './Pages/Learn'
 
 
 
-export const App = () => {
+function App() {
 
  return (
 
-  <>
-  <Header />
+  <HashRouter>
     <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/CandlesChart" element={<CandlesChart />} />
-        <Route path="/Learn" element={<Learn />} />
+          { routes.map((route, index) => (
+            <Route
+              key={index}
+              path={route.path}
+              element={<route.component />}
+              />
+          )) }
     </Routes>
-   <Footer />
-  </>
+  </HashRouter>
  );
 };
 export default App;

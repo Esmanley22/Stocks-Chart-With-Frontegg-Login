@@ -12,6 +12,7 @@ function AlertSign() {
             <p>
                 In order to gain access, sign up or sign in to access the free practive tool! It's free!
             </p>
+                <hr />
             <p className="mb-0">
                 The link to the free stocks chart will not appear at the top of the screen unless you are signed in.
             </p>
